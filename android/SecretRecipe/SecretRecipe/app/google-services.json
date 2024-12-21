@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "188997792254",
+    "firebase_url": "https://secret-recipe-1cf07-default-rtdb.firebaseio.com",
+    "project_id": "secret-recipe-1cf07",
+    "storage_bucket": "secret-recipe-1cf07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188997792254:android:d1b01b240a6687423b10af",
+        "android_client_info": {
+          "package_name": "com.example.secretrecipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTV6orAenbtR6hKPeqaND3XH0Gqn5Q5KA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

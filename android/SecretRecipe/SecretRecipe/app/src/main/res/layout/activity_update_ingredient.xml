@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/updateIngredientLayout"
+android:padding="16dp"
+tools:context=".UpdateIngredientActivity">
+
+
+<EditText
+    android:id="@+id/ingredientIdInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Ingredient ID"
+    android:inputType="text" />
+
+
+<EditText
+    android:id="@+id/ingredientQuantityInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="New Quantity"
+    android:inputType="number" />
+
+
+<Button
+    android:id="@+id/updateIngredientButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update Ingredient" />
+</LinearLayout>

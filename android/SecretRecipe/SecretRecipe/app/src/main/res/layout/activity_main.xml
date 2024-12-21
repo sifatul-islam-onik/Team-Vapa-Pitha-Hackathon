@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:id="@+id/main"
+android:gravity="center"
+tools:context=".MainActivity"
+android:padding="16dp">
+
+
+<Button
+    android:id="@+id/addIngredientButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Add Ingredient"
+    android:layout_marginBottom="16dp" />
+
+
+<Button
+    android:id="@+id/updateIngredientButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update Ingredient" />
+
+    <Button
+        android:id="@+id/viewIngredientsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Ingredients"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnOpenRecipeManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Recipes"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
